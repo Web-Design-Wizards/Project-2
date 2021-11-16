@@ -1,0 +1,30 @@
+#navigation-main{
+  background-color: lightblue;
+  position: absolute;
+  width: 100%;
+  top: 10em;
+  left: 0;
+}
+
+#navigation-main li {
+  float:left;
+  width: 33.3%;
+}
+
+#navigation-main a {
+  display: block;
+  text-align: center;
+  padding: 1em 0;
+  text-decoration: none;
+}
+
+#navigation-main a:hover {
+  background-color: grey;
+}
+
+#currentsite {
+  background-color: lightskyblue;
+}
+
+
+
