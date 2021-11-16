@@ -1,4 +1,4 @@
-#navigation-main{
+#navigation-main {
   background-color: lightblue;
   position: absolute;
   width: 100%;
@@ -10,21 +10,36 @@
   float:left;
   width: 33.3%;
 }
-
+  
 #navigation-main a {
   display: block;
   text-align: center;
   padding: 1em 0;
   text-decoration: none;
 }
-
+  
 #navigation-main a:hover {
   background-color: grey;
 }
-
+  
 #currentsite {
   background-color: lightskyblue;
 }
 
+@media only screen and (min-width : 480px) {
 
+}
 
+@media only screen and (min-width : 992px) {
+  #navigation-main {
+    background-color: lightblue;
+    position: absolute;
+    width: 100%;
+    top: 10em;
+        
+  }
+  #nav {
+    width: 20em;
+    margin: 0 auto;   
+  }
+}
