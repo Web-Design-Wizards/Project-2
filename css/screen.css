@@ -87,7 +87,11 @@
 
 .panel h3 {
   font-weight: bold;
-  padding: 16px;
+  padding-bottom: 16px;
+}
+
+.panel p  {
+  padding-bottom: 16px;
 }
 
 .panel {
@@ -107,11 +111,12 @@
   display: block;
   margin: auto;
   width: 18em;
-  padding: 2em;
+  padding: 2em 0 1em 0;
 }
 
 .du-text {
   text-align: center;
+  padding-bottom: 1em;
 }
 
 /*Contact Page*/
