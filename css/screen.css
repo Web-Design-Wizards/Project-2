@@ -1,3 +1,5 @@
+/*1.2 ratio modular scale: https://www.modularscale.com/?22&px&1.2*/
+
 /* Navigation */
 
 .navigation-main {
@@ -49,17 +51,25 @@
 
 form {
   text-align: center;
+  width: 90%;
+  margin: 0 auto;
 }
 
 #form-heading {
-  margin: 2em 0;
+  font-size: 2.488em; /*~54.74px*/
+  line-height: 2.986em; /*~65.7*/
+  margin: 1em 0;
 }
 
 #form-p {
+  font-size: 2.074em; /*~45.62px*/
+  line-height: 2.488em; /*~54.74px*/
   padding: 0 0 1em 0;
 }
 
 #name, #email {
+  font-size: 2.074em; /*~45.62px*/
+  line-height: 2.488em; /*~54.74px*/
   width: 90%;
   padding: 2em 0;
   margin: 1.5em 0;
@@ -67,11 +77,12 @@ form {
 }
 
 #submit {
+  font-size: 2.074em; /*~45.62px*/
+  line-height: 2.488em; /*~54.74px*/
   width: 70%;
-  background-color: #000613;
-  color: #5E84D4;
+  background-color: #5E84D4;
+  color: #000613;
   border: none;
-  padding: 2em;
   margin: 2em;
 }
 
@@ -93,8 +104,8 @@ form {
 
   #submit {
     width: 45%;
-    background-color: #000613;
-    color: #5E84D4;
+    background-color: #5E84D4;
+    color: #000613;
     border: none;
     padding: 1.5em;
   }
@@ -145,21 +156,36 @@ form {
   
   form {
     text-align: center;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  #form-heading {
+    font-size: 1.44em; /*~31.7px*/
+    line-height: 1.728em; /*~38.02*/
+    margin: 2em 0;
+  }
+  
+  #form-p {
+    font-size: 1.2em; /*~26.4px*/
+    line-height: 1.44em; /*~31.68px*/
+    padding: 0 0 1em 0;
   }
 
   #name, #email {
-    width: 30%;
+    font-size: 1.2em; /*~26.4px*/
+    line-height: 1.44em; /*~31.68px*/
     padding: 1em 0;
     margin: 1em 0;
     border-color: #000613;
   }
 
   #submit {
-    width: 15%;
-    background-color: #000613;
-    color: #5E84D4;
+    background-color: #5E84D4;
+    color: #000613;
     border: none;
     margin: 1em;
+    padding: 0;
   }
   
 }
