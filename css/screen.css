@@ -67,6 +67,7 @@
     background-color: palegoldenrod;
     text-align: center;
     padding: 2em;
+    margin-bottom: 1em;
 }
 
 #events h1 {
@@ -83,6 +84,29 @@
     padding: 2em;
     margin-bottom: 1em;
 
+}
+
+.signup {
+    clear:both;
+    background-color: teal;
+    padding:1em;
+
+}
+
+#signup-text {
+    text-align: center;
+    display: block;
+    width: 58%;
+    float: left;
+}
+
+#signup-text h1 {
+    padding: 1em 0 1em 0;
+}
+
+button {
+    width: 10em;
+    height: 3em;
 }
 
 
