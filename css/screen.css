@@ -42,6 +42,11 @@
 }
 
 /*About Page*/
+
+.history  {
+  text-align: center;
+}
+
 .accordion {
   background-color: #eee;
   color: #444;
@@ -75,9 +80,25 @@
 .panel {
   padding: 0 18px;
   background-color: #ccc;
+  text-align: center;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+}
+
+.duJournal {
+  height: 10em;
+}
+
+#duPoster {
+  display: block;
+  margin: auto;
+  width: 18em;
+  padding: 2em;
+}
+
+.du-text {
+  text-align: center;
 }
 
 /*Contact Page*/
