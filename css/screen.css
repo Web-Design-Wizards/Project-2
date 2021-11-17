@@ -56,6 +56,35 @@
     padding: 1em;
 }
 
+.clickable {
+    margin: 1em;
+}
+.signup {
+    margin: 1em;
+}
+
+#news h1 {
+    background-color: palegoldenrod;
+    text-align: center;
+    padding: 2em;
+}
+
+#events h1 {
+    background-color:salmon;
+    text-align: center;
+    padding: 2em;
+    margin-bottom: 1em;
+
+}
+
+#videos h1 {
+    background-color:springgreen;
+    text-align: center;
+    padding: 2em;
+    margin-bottom: 1em;
+
+}
+
 
 /* Tablet View */
 
@@ -104,11 +133,13 @@
   }
 
   /* Content */
-  
+
   .info h1{
     display: block;
     margin: auto;
     background-color: orange;
     width: 77%;
 }
+
+
 }
