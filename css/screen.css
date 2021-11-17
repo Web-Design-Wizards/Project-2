@@ -1,7 +1,7 @@
 /* Navigation */
 
 .navigation-main {
-  background-color: lightblue;
+  background-color: #0D50DF;
   position: absolute;
   width: 100%;
   top: 10em;
@@ -21,11 +21,11 @@
 }
   
 .navigation-main a:hover {
-  background-color: grey;
+  background-color: #022061;
 }
   
 #currentsite {
-  background-color: lightskyblue;
+  background-color: #5E84D4;
 }
 
 /* Top Branding */
@@ -63,7 +63,7 @@ form {
   /* Navigation */
 
   .navigation-main {
-    background-color: lightblue;
+    background-color: #0D50DF;
     position: absolute;
     width: 100%;
     top: 10em;  
