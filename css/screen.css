@@ -58,7 +58,7 @@ html {
   margin-bottom: 1em;
 }
 
-.info h1{
+.info h2{
   margin: 1em;
   padding: 1em;
   text-align: center;
@@ -68,7 +68,7 @@ html {
   margin: 1em;
 }
 
-#news h1 {
+#news h2 {
   background-color: palegoldenrod;
   text-align: center;
   padding: 2em;
@@ -77,11 +77,11 @@ html {
   font-size: 1.44em;
 }
 
-#news h1:hover {
+#news h2:hover {
   background-color: grey;
 }
 
-#events h1 {
+#events h2 {
   background-color:salmon;
   text-align: center;
   padding: 2em;
@@ -90,11 +90,11 @@ html {
   font-size: 1.44em;
 }
 
-#events h1:hover {
+#events h2:hover {
   background-color: grey;
 }
 
-#videos h1 {
+#videos h2 {
   background-color:springgreen;
   text-align: center;
   padding: 2em;
@@ -103,7 +103,7 @@ html {
   font-size: 1.44em;
 }
 
-#videos h1:hover {
+#videos h2:hover {
   background-color: grey;
 }
 
@@ -121,7 +121,7 @@ html {
   float: left;
 }
 
-#signup-text h1 {
+#signup-text h2 {
   padding: 0.6em 0 0.6em 0;
   color:white;
   font-size: 1.44em;
@@ -291,7 +291,7 @@ form {
     margin: 0 5% 0 0;
   }
 
-  #news h1 {
+  #news h2 {
     padding: 3em 0 3em 0;
   }
 
@@ -302,7 +302,7 @@ form {
     margin: 0 5% 0 0;
   }
 
-  #events h1 {
+  #events h2 {
     padding: 3em 0 3em 0;
   }
 
@@ -312,7 +312,7 @@ form {
     width: 30%;
   }
 
-  #videos h1 {
+  #videos h2 {
     padding: 3em 0 3em 0;
   }
 
@@ -393,7 +393,7 @@ form {
   
    /* Homepage */
 
-  .info h1{
+  .info h2{
     display: block;
     margin: auto;
     width: 77%;
@@ -403,15 +403,15 @@ form {
     width: 80%;
   }
 
-  #news h1 {
+  #news h2 {
     padding: 4.5em 0 4.5em 0;
   }
 
-  #events h1 {
+  #events h2 {
     padding: 4.5em 0 4.5em 0;
   }
 
-  #videos h1 {
+  #videos h2 {
     padding: 4.5em 0 4.5em 0;
   }
 
