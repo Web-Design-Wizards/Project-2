@@ -48,9 +48,11 @@
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  text-align: left;
   border: none;
+  text-align: center;
   outline: none;
+  font-size: 15px;
+  font-weight: bold;
   transition: 0.4s;
 }
 
@@ -58,11 +60,24 @@
   background-color: #ccc;
 }
 
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
 .panel {
   padding: 0 18px;
-  background-color: white;
-  display: none;
+  background-color: #ccc;
+  max-height: 0;
   overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
 
 /*Contact Page*/
