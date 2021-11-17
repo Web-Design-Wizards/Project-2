@@ -51,14 +51,28 @@ form {
   text-align: center;
 }
 
-input {
-  width: 30%;
-  padding: 1em 0;
-  margin: 1em 0;
+#form-heading {
+  margin: 2em 0;
+}
+
+#form-p {
+  padding: 0 0 1em 0;
+}
+
+#name, #email {
+  width: 90%;
+  padding: 2em 0;
+  margin: 1.5em 0;
+  border-color: #000613;
 }
 
 #submit {
-  width: 15%;
+  width: 70%;
+  background-color: #000613;
+  color: #5E84D4;
+  border: none;
+  padding: 2em;
+  margin: 2em;
 }
 
 /* Tablet View */
@@ -70,14 +84,19 @@ input {
     text-align: center;
   }
 
-  input {
-    width: 90%;
+  #name, #email {
+    width: 65%;
     padding: 1em 0;
     margin: 1em 0;
+    border-color: #000613;
   }
 
   #submit {
-    width: 70%;
+    width: 45%;
+    background-color: #000613;
+    color: #5E84D4;
+    border: none;
+    padding: 1.5em;
   }
 
 }
@@ -128,14 +147,19 @@ input {
     text-align: center;
   }
 
-  input {
+  #name, #email {
     width: 30%;
     padding: 1em 0;
     margin: 1em 0;
+    border-color: #000613;
   }
 
   #submit {
     width: 15%;
+    background-color: #000613;
+    color: #5E84D4;
+    border: none;
+    margin: 1em;
   }
   
 }
