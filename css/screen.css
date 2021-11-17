@@ -424,6 +424,22 @@ form {
     text-align: right;
   }
   
+  
+  /*About Us Page*/
+  
+.history h3 {
+  font-size: 2.074em; /* 33.178px*/
+  padding-bottom: 0.5em;
+}
+
+.history p {
+  font-size: 1.2em;
+  width: 40%;
+  text-align: left;
+  margin-left: 29.5%;
+  padding-bottom: 0em;
+}
+
   /*Contact Page*/
   
   form {
