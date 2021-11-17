@@ -1,7 +1,7 @@
 /* Navigation */
 
 .navigation-main {
-  background-color: lightblue;
+  background-color: #5E84D4;
   position: absolute;
   width: 100%;
   top: 10em;
@@ -21,11 +21,11 @@
 }
   
 .navigation-main a:hover {
-  background-color: grey;
+  background-color: #A2B3D8;
 }
   
 #currentsite {
-  background-color: lightskyblue;
+  background-color: #0D50DF ;
 }
 
 /* Top Branding */
@@ -51,9 +51,34 @@ form {
   text-align: center;
 }
 
+input {
+  width: 30%;
+  padding: 1em 0;
+  margin: 1em 0;
+}
+
+#submit {
+  width: 15%;
+}
+
 /* Tablet View */
 
 @media only screen and (min-width : 480px) {
+  /*Contact Page*/
+  
+  form {
+    text-align: center;
+  }
+
+  input {
+    width: 90%;
+    padding: 1em 0;
+    margin: 1em 0;
+  }
+
+  #submit {
+    width: 70%;
+  }
 
 }
 
@@ -63,7 +88,7 @@ form {
   /* Navigation */
 
   .navigation-main {
-    background-color: lightblue;
+    background-color: #5E84D4;
     position: absolute;
     width: 100%;
     top: 10em;  
@@ -96,4 +121,21 @@ form {
     padding-top: 4.5em;
     padding: 4.5em 0 4.5em 0;
   }
+  
+  /*Contact Page*/
+  
+  form {
+    text-align: center;
+  }
+
+  input {
+    width: 30%;
+    padding: 1em 0;
+    margin: 1em 0;
+  }
+
+  #submit {
+    width: 15%;
+  }
+  
 }
