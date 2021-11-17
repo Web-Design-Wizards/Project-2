@@ -1,6 +1,7 @@
 /* Base Mobile Devices */
 
 html {
+  /* 1.2 ratio modular scale: https://www.modularscale.com/?22&px&1.2 */
   font-size: 1em; /* 22px */
   line-height: 1.2em; /* 26.4px / ~ 120% */
   text-rendering: optimizeLegibility;
@@ -9,7 +10,7 @@ html {
 /* Navigation */
 
 .navigation-main {
-  background-color: lightblue;
+  background-color: #5E84D4;
   position: absolute;
   width: 100%;
   top: 10em;
@@ -29,11 +30,11 @@ html {
 }
   
 .navigation-main a:hover {
-  background-color: grey;
+  background-color: #A2B3D8;
 }
   
 #currentsite {
-  background-color: lightskyblue;
+  background-color: #0D50DF ;
 }
 
 /* Top Branding */
@@ -146,11 +147,149 @@ footer a {
 
 footer a:hover {
   background-color: grey;
+
+/* About Page */
+
+.history h3 {
+  font-weight: bold;
+  padding-bottom: 16px;
+}
+
+.history  {
+  text-align: center;
+  padding: 2em 0;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel h3 {
+  font-weight: bold;
+  padding-bottom: 16px;
+}
+
+.panel p  {
+  padding-bottom: 16px;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #ccc;
+  text-align: center;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.duJournal {
+  height: 10em;
+}
+
+#duPoster {
+  display: block;
+  margin: auto;
+  width: 18em;
+  padding: 2em 0 1em 0;
+}
+
+.du-text {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+/* Contact Page */
+
+#contact_form_li {
+  list-style: none;
+}
+
+form {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#form-heading {
+  font-size: 2.488em; /*~54.74px*/
+  line-height: 2.986em; /*~65.7*/
+  margin: 1em 0;
+}
+
+#form-p {
+  font-size: 2.074em; /*~45.62px*/
+  line-height: 2.488em; /*~54.74px*/
+  padding: 0 0 1em 0;
+}
+
+#name, #email {
+  font-size: 2.074em; /*~45.62px*/
+  line-height: 2.488em; /*~54.74px*/
+  width: 90%;
+  padding: 2em 0;
+  margin: 1.5em 0;
+  border-color: #000613;
+}
+
+#submit {
+  font-size: 2.074em; /*~45.62px*/
+  line-height: 2.488em; /*~54.74px*/
+  width: 70%;
+  background-color: #5E84D4;
+  color: #000613;
+  border: none;
+  margin: 2em;
 }
 
 /* Tablet View */
 
 @media only screen and (min-width : 480px) {
+  /*Contact Page*/
+  
+  form {
+    text-align: center;
+  }
+
+  #name, #email {
+    width: 65%;
+    padding: 1em 0;
+    margin: 1em 0;
+    border-color: #000613;
+  }
+
+  #submit {
+    width: 45%;
+    background-color: #5E84D4;
+    color: #000613;
+    border: none;
+    padding: 1.5em;
+  }
 
   /* Homepage */
 
@@ -212,7 +351,7 @@ footer a:hover {
   /* Navigation */
 
   .navigation-main {
-    background-color: lightblue;
+    background-color: #5E84D4;
     position: absolute;
     width: 100%;
     top: 10em;  
@@ -278,5 +417,41 @@ footer a:hover {
 
   footer {
     text-align: right;
+  }
+  
+  /*Contact Page*/
+  
+  form {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  #form-heading {
+    font-size: 1.44em; /*~31.7px*/
+    line-height: 1.728em; /*~38.02*/
+    margin: 2em 0;
+  }
+  
+  #form-p {
+    font-size: 1.2em; /*~26.4px*/
+    line-height: 1.44em; /*~31.68px*/
+    padding: 0 0 1em 0;
+  }
+
+  #name, #email {
+    font-size: 1.2em; /*~26.4px*/
+    line-height: 1.44em; /*~31.68px*/
+    padding: 1em 0;
+    margin: 1em 0;
+    border-color: #000613;
+  }
+
+  #submit {
+    background-color: #5E84D4;
+    color: #000613;
+    border: none;
+    margin: 1em;
+    padding: 0;
   }
 }

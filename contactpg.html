@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
 <head>
-  <title></title>
+  <title>Contact - ISUD</title>
   <meta charset="utf-8" />
   <link rel="stylesheet" media="screen" href="css/normalize.css" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
@@ -12,7 +12,7 @@
   <header id="header">
     <div class="branding-container">
       <div class="brand-img">
-        <img id="logo" src="https://static.wixstatic.com/media/80ed71_fa1e21e9f65843cd91dce868c24ee78f.jpg/v1/fill/w_223,h_229,al_c,q_80,usm_0.66_1.00_0.01/ISUD_Logo_color.webp">
+        <img id="logo" src="images/isud_logo.webp" alt="ISUD Logo">
       </div>
       <div class="brand-text">
         <h1>The International Society for Universal Dialogue</h1>
@@ -20,15 +20,30 @@
     </div>
     <nav class="navigation-main">
       <ul class="nav">
-        <li id="currentsite"><a href="index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="aboutpg.html">About Us</a></li>
-        <li><a href="contactpg.html">Contact</a></li>
+        <li id="currentsite"><a href="contactpg.html">Contact</a></li>
       </ul>
     </nav>
   </header>
   <main id="content">
     <!--Body Content-->
-    
-  </main>
+    <form method="get" autocomplete="on" action="#null">
+    <h1 id="form-heading">Thank you for your interest in ISUD.</h1>
+    <p id="form-p">For details about our upcoming events and other announcements, provide your information below!</p>
+    <ul id="contact_form_ul">
+      <li id="contact_form_li">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name">
+      </li>
+      <li id="contact_form_li">
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email">
+      </li>
+      <li id="contact_form_li">
+        <input type="submit" name="submit" id="submit" value="Join Now">
+      </li>
+    </ul>
+  </form>
 </body>
 </html>
