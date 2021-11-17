@@ -43,8 +43,13 @@
 
 /*About Page*/
 
+.history h3 {
+  font-weight: bold;
+}
+
 .history  {
   text-align: center;
+  padding: 2em 0;
 }
 
 .accordion {
