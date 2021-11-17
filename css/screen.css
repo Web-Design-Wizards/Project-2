@@ -60,15 +60,14 @@
     margin: 1em;
 
 }
-.signup {
-    margin: 1em;
-}
+
 
 #news h1 {
     background-color: palegoldenrod;
     text-align: center;
     padding: 2em;
     margin-bottom: 1em;
+    color: black;
 }
 
 #news h1:hover {
@@ -80,6 +79,7 @@
     text-align: center;
     padding: 2em;
     margin-bottom: 1em;
+    color: black;
 }
 
 #events h1:hover {
@@ -92,6 +92,7 @@
     text-align: center;
     padding: 2em;
     margin-bottom: 1em;
+    color: black;
 }
 
 #videos h1:hover {
@@ -102,6 +103,7 @@
     clear:both;
     background-color: teal;
     padding:1em;
+    margin: 1em;
 
 }
 
@@ -146,6 +148,44 @@ a {
 /* Tablet View */
 
 @media only screen and (min-width : 480px) {
+
+    .clickable {
+        margin: auto;
+        width: 95%;
+        margin-top: 1em;
+    }
+
+    .signup {
+        margin: 2.5%;
+    }
+    
+    #news {
+        display: block;
+        float: left;
+        width: 30%;
+        margin: 0 5% 0 0;
+    }
+    
+    #news h1 {
+        padding: 3em 0 3em 0;
+    }
+    #events h1 {
+        padding: 3em 0 3em 0;
+    }
+    #videos h1 {
+        padding: 3em 0 3em 0;
+    }
+    #events {
+        display: block;
+        float: left;
+        width: 30%;
+        margin: 0 5% 0 0;
+    }
+    #videos {
+        display: block;
+        float: left;
+        width: 30%;
+    }
 
 }
 
@@ -197,39 +237,21 @@ a {
     width: 77%;
 }
 
-.clickable {
-    margin: auto;
-    width: 80%;
-    margin-top: 1em;
-}
-
-#news {
-    display: block;
-    float: left;
-    width: 30%;
-    margin: 0 5% 0 0;
-}
-
 #news h1 {
-    padding: 7em 0 7em 0;
+    padding: 6em 0 6em 0;
 }
 #events h1 {
-    padding: 7em 0 7em 0;
+    padding: 6em 0 6em 0;
 }
 #videos h1 {
-    padding: 7em 0 7em 0;
+    padding: 6em 0 6em 0;
 }
-#events {
-    display: block;
-    float: left;
-    width: 30%;
-    margin: 0 5% 0 0;
+
+.clickable {
+    width: 80%;
+
 }
-#videos {
-    display: block;
-    float: left;
-    width: 30%;
-}
+
 
 .signup {
     margin: auto;
