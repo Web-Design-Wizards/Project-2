@@ -41,6 +41,22 @@
   width: 10em;
 }
 
+
+/* Content */
+
+.splide {
+    margin: auto;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.info h1{
+    margin: 1em;
+    background-color: orange;
+    padding: 1em;
+}
+
+
 /* Tablet View */
 
 @media only screen and (min-width : 480px) {
@@ -86,4 +102,13 @@
     padding-top: 4.5em;
     padding: 4.5em 0 4.5em 0;
   }
+
+  /* Content */
+  
+  .info h1{
+    display: block;
+    margin: auto;
+    background-color: orange;
+    width: 77%;
+}
 }
