@@ -148,6 +148,7 @@ footer a {
 footer a:hover {
   background-color: grey;
 }
+
 /* About Page */
 
 .history h3 {
@@ -224,9 +225,9 @@ footer a:hover {
   padding-bottom: 1em;
 }
 
-/* Contact Page */
+/*Contact Page*/
 
-#contact_form_li {
+.contact_form_li {
   list-style: none;
 }
 
@@ -270,28 +271,7 @@ form {
 /* Tablet View */
 
 @media only screen and (min-width : 480px) {
-  /*Contact Page*/
-  
-  form {
-    text-align: center;
-  }
-
-  #name, #email {
-    width: 65%;
-    padding: 1em 0;
-    margin: 1em 0;
-    border-color: #000613;
-  }
-
-  #submit {
-    width: 45%;
-    background-color: #5E84D4;
-    color: #000613;
-    border: none;
-    padding: 1.5em;
-  }
-
-  /* Homepage */
+   /* Homepage */
 
   .clickable {
     margin: auto;
@@ -344,10 +324,32 @@ form {
   }
 }
 
+  /* Contact Page */
+  
+  form {
+    text-align: center;
+  }
+
+  #name, #email {
+    width: 65%;
+    padding: 1em 0;
+    margin: 1em 0;
+    border-color: #000613;
+  }
+
+  #submit {
+    width: 45%;
+    background-color: #5E84D4;
+    color: #000613;
+    border: none;
+    padding: 1.5em;
+  }
+
+}
+
 /* Desktop View */
 
 @media only screen and (min-width : 992px) {
-
   /* Navigation */
 
   .navigation-main {
@@ -381,12 +383,11 @@ form {
     display: block;
     width: 40%;
     float: left;
-    padding: 2.7em 0 2.7em 0;
-    font-size: 1.44em
+    padding-top: 4.5em;
+    padding: 4.5em 0 4.5em 0;
   }
-
-
-  /* Homepage */
+  
+   /* Homepage */
 
   .info h1{
     display: block;
