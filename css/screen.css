@@ -41,6 +41,16 @@
   width: 10em;
 }
 
+/*Contact Page*/
+
+#contact_form_li {
+  list-style: none;
+}
+
+form {
+  text-align: center;
+}
+
 /* Tablet View */
 
 @media only screen and (min-width : 480px) {
