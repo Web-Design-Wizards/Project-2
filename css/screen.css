@@ -141,5 +141,37 @@
     width: 77%;
 }
 
+.clickable {
+    margin: auto;
+    width: 80%;
+    margin-top: 1em;
+}
 
+#news {
+    display: block;
+    float: left;
+    width: 30%;
+    margin: 0 5% 0 0;
+}
+
+#news h1 {
+    padding: 7em 0 7em 0;
+}
+#events h1 {
+    padding: 7em 0 7em 0;
+}
+#videos h1 {
+    padding: 7em 0 7em 0;
+}
+#events {
+    display: block;
+    float: left;
+    width: 30%;
+    margin: 0 5% 0 0;
+}
+#videos {
+    display: block;
+    float: left;
+    width: 30%;
+}
 }
