@@ -130,10 +130,13 @@ html {
 button {
   width: 100%;
   height: 3em;
+  background-color: #5E84D4;
+  border: none;
+  cursor: pointer;
 }
 
 footer {
-  background-color: teal;
+  background-color: #5E84D4;
   margin-top: 2em;
   padding: 1.5em;
   text-align: center;
@@ -382,8 +385,8 @@ form {
     display: block;
     width: 40%;
     float: left;
-    padding-top: 4.5em;
-    padding: 4.5em 0 4.5em 0;
+    padding: 2.7em 0 2.7em 0;
+    font-size: 1.44em
   }
   
    /* Homepage */
