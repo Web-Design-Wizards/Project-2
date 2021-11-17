@@ -1,8 +1,10 @@
+/* Base Mobile Devices */
+
 html {
-    font-size: 1em; /* 22px */
-    line-height: 1.2em; /* 26.4px / ~ 120% */
-    text-rendering: optimizeLegibility;
-  }
+  font-size: 1em; /* 22px */
+  line-height: 1.2em; /* 26.4px / ~ 120% */
+  text-rendering: optimizeLegibility;
+}
 
 /* Navigation */
 
@@ -47,171 +49,166 @@ html {
   width: 10em;
 }
 
-
-/* Content */
+/* Homepage */
 
 .splide {
-    margin: auto;
-    margin-top: 0.5em;
-    margin-bottom: 1em;
+  margin: auto;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
 }
 
 .info h1{
-    margin: 1em;
-    padding: 1em;
-    text-align: center;
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
 }
 
 .clickable {
-    margin: 1em;
-
+  margin: 1em;
 }
 
-
 #news h1 {
-    background-color: palegoldenrod;
-    text-align: center;
-    padding: 2em;
-    margin-bottom: 1em;
-    color: black;
-    font-size: 1.44em;
+  background-color: palegoldenrod;
+  text-align: center;
+  padding: 2em;
+  margin-bottom: 1em;
+  color: black;
+  font-size: 1.44em;
 }
 
 #news h1:hover {
-    background-color: grey;
+  background-color: grey;
 }
 
 #events h1 {
-    background-color:salmon;
-    text-align: center;
-    padding: 2em;
-    margin-bottom: 1em;
-    color: black;
-    font-size: 1.44em;
+  background-color:salmon;
+  text-align: center;
+  padding: 2em;
+  margin-bottom: 1em;
+  color: black;
+  font-size: 1.44em;
 }
 
 #events h1:hover {
-    background-color: grey;
+  background-color: grey;
 }
 
-
 #videos h1 {
-    background-color:springgreen;
-    text-align: center;
-    padding: 2em;
-    margin-bottom: 1em;
-    color: black;
-    font-size: 1.44em;
+  background-color:springgreen;
+  text-align: center;
+  padding: 2em;
+  margin-bottom: 1em;
+  color: black;
+  font-size: 1.44em;
 }
 
 #videos h1:hover {
-    background-color: grey;
+  background-color: grey;
 }
 
 .signup {
-    clear:both;
-    background-color: teal;
-    padding:1em;
-    margin: 1em;
-
+  clear:both;
+  background-color: teal;
+  padding:1em;
+  margin: 1em;
 }
 
 #signup-text {
-    text-align: center;
-    display: block;
-    width: 100%;
-    float: left;
+  text-align: center;
+  display: block;
+  width: 100%;
+  float: left;
 }
 
 #signup-text h1 {
-    padding: 0.6em 0 0.6em 0;
-    color:white;
-    font-size: 1.44em;
+  padding: 0.6em 0 0.6em 0;
+  color:white;
+  font-size: 1.44em;
 }
 
 button {
-    width: 100%;
-    height: 3em;
- 
+  width: 100%;
+  height: 3em;
 }
 
 footer {
-    background-color: teal;
-    margin-top: 2em;
-    padding: 1.5em;
-    text-align: center;
+  background-color: teal;
+  margin-top: 2em;
+  padding: 1.5em;
+  text-align: center;
 }
 
 footer a {
-    color:white;
-    text-decoration: none;
-    padding: 1em;
+  color:white;
+  text-decoration: none;
+  padding: 1em;
 }
 
 footer a:hover {
-    background-color: grey;
-}
-
-a {
-    text-decoration: none;
+  background-color: grey;
 }
 
 /* Tablet View */
 
 @media only screen and (min-width : 480px) {
 
-    .clickable {
-        margin: auto;
-        width: 95%;
-        margin-top: 1em;
-    }
+  /* Homepage */
 
-    .signup {
-        margin: 2.5%;
-    }
-    
-    #news {
-        display: block;
-        float: left;
-        width: 30%;
-        margin: 0 5% 0 0;
-    }
-    
-    #news h1 {
-        padding: 3em 0 3em 0;
-    }
-    #events h1 {
-        padding: 3em 0 3em 0;
-    }
-    #videos h1 {
-        padding: 3em 0 3em 0;
-    }
-    #events {
-        display: block;
-        float: left;
-        width: 30%;
-        margin: 0 5% 0 0;
-    }
-    #videos {
-        display: block;
-        float: left;
-        width: 30%;
-    }
+  .clickable {
+    margin: auto;
+    width: 95%;
+    margin-top: 1em;
+  }
 
-    button {
-        width: 10em;
-    }
+  #news {
+    display: block;
+    float: left;
+    width: 30%;
+    margin: 0 5% 0 0;
+  }
 
-    #signup-text {
-        width: 62%;
-  
-    }
+  #news h1 {
+    padding: 3em 0 3em 0;
+  }
 
+  #events {
+    display: block;
+    float: left;
+    width: 30%;
+    margin: 0 5% 0 0;
+  }
+
+  #events h1 {
+    padding: 3em 0 3em 0;
+  }
+
+  #videos {
+    display: block;
+    float: left;
+    width: 30%;
+  }
+
+  #videos h1 {
+    padding: 3em 0 3em 0;
+  }
+
+  .signup {
+    margin: 2.5%;
+  }
+
+  #signup-text {
+    width: 62%;
+  }
+
+  button {
+    width: 10em;
+  }
 }
 
 /* Desktop View */
 
 @media only screen and (min-width : 992px) {
+
   /* Navigation */
 
   .navigation-main {
@@ -250,36 +247,36 @@ a {
   }
 
 
-  /* Content */
+  /* Homepage */
 
   .info h1{
     display: block;
     margin: auto;
     width: 77%;
-}
+  }
 
-#news h1 {
-    padding: 4.5em 0 4.5em 0;
-}
-#events h1 {
-    padding: 4.5em 0 4.5em 0;
-}
-#videos h1 {
-    padding: 4.5em 0 4.5em 0;
-}
-
-.clickable {
+  .clickable {
     width: 80%;
+  }
 
-}
+  #news h1 {
+    padding: 4.5em 0 4.5em 0;
+  }
 
+  #events h1 {
+    padding: 4.5em 0 4.5em 0;
+  }
 
-.signup {
+  #videos h1 {
+    padding: 4.5em 0 4.5em 0;
+  }
+
+  .signup {
     margin: auto;
     width: 77%;
-}
+  }
 
-footer {
+  footer {
     text-align: right;
-}
+  }
 }
