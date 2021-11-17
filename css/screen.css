@@ -153,7 +153,6 @@ footer a:hover {
 
 .history h3 {
   font-weight: bold;
-  padding-bottom: 16px;
 }
 
 .history  {
@@ -161,16 +160,20 @@ footer a:hover {
   padding: 2em 0;
 }
 
+.history p  {
+  padding: 16px 18px;
+}
+
 .accordion {
   background-color: #eee;
   color: #444;
   cursor: pointer;
-  padding: 18px;
+  padding: 16px;
   width: 100%;
   border: none;
   text-align: center;
   outline: none;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
   transition: 0.4s;
 }
@@ -193,11 +196,10 @@ footer a:hover {
 
 .panel h3 {
   font-weight: bold;
-  padding-bottom: 16px;
 }
 
 .panel p  {
-  padding-bottom: 16px;
+  padding: 1em;
 }
 
 .panel {
