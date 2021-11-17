@@ -1,0 +1,89 @@
+/* Navigation */
+
+.navigation-main {
+  background-color: lightblue;
+  position: absolute;
+  width: 100%;
+  top: 10em;
+  left: 0;
+}
+
+.navigation-main li {
+  float:left;
+  width: 33.3%;
+}
+  
+.navigation-main a {
+  display: block;
+  text-align: center;
+  padding: 1em 0;
+  text-decoration: none;
+}
+  
+.navigation-main a:hover {
+  background-color: grey;
+}
+  
+#currentsite {
+  background-color: lightskyblue;
+}
+
+/* Top Branding */
+
+.branding-container {
+  height: 10em;
+  padding-bottom: 3em;
+}
+
+#logo {
+  display: block;
+  margin: auto;
+  width: 10em;
+}
+
+/* Tablet View */
+
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Desktop View */
+
+@media only screen and (min-width : 992px) {
+  /* Navigation */
+
+  .navigation-main {
+    background-color: lightblue;
+    position: absolute;
+    width: 100%;
+    top: 10em;  
+  }
+
+  .nav {
+    width: 20em;
+    margin: 0 auto;   
+  }
+
+  /* Top Branding */
+  
+  #logo {
+    display: block;
+    margin: auto;
+    width: 10em;
+  }
+
+  .brand-img {
+    padding-left: 13em;
+    display: block;
+    width: 25%;
+    float: left;
+  }
+
+  .brand-text {
+    display: block;
+    width: 40%;
+    float: left;
+    padding-top: 4.5em;
+    padding: 4.5em 0 4.5em 0;
+  }
+}
