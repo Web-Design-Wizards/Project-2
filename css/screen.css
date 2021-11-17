@@ -1,3 +1,9 @@
+html {
+    font-size: 1em; /* 22px */
+    line-height: 1.2em; /* 26.4px / ~ 120% */
+    text-rendering: optimizeLegibility;
+  }
+
 /* Navigation */
 
 .navigation-main {
@@ -68,6 +74,7 @@
     padding: 2em;
     margin-bottom: 1em;
     color: black;
+    font-size: 1.44em;
 }
 
 #news h1:hover {
@@ -80,6 +87,7 @@
     padding: 2em;
     margin-bottom: 1em;
     color: black;
+    font-size: 1.44em;
 }
 
 #events h1:hover {
@@ -93,6 +101,7 @@
     padding: 2em;
     margin-bottom: 1em;
     color: black;
+    font-size: 1.44em;
 }
 
 #videos h1:hover {
@@ -110,18 +119,20 @@
 #signup-text {
     text-align: center;
     display: block;
-    width: 58%;
+    width: 100%;
     float: left;
 }
 
 #signup-text h1 {
-    padding: 1em 0 1em 0;
+    padding: 0.6em 0 0.6em 0;
     color:white;
+    font-size: 1.44em;
 }
 
 button {
-    width: 10em;
+    width: 100%;
     height: 3em;
+ 
 }
 
 footer {
@@ -187,6 +198,15 @@ a {
         width: 30%;
     }
 
+    button {
+        width: 10em;
+    }
+
+    #signup-text {
+        width: 62%;
+  
+    }
+
 }
 
 /* Desktop View */
@@ -225,9 +245,10 @@ a {
     display: block;
     width: 40%;
     float: left;
-    padding-top: 4.5em;
-    padding: 4.5em 0 4.5em 0;
+    padding: 2.7em 0 2.7em 0;
+    font-size: 1.44em
   }
+
 
   /* Content */
 
@@ -238,13 +259,13 @@ a {
 }
 
 #news h1 {
-    padding: 6em 0 6em 0;
+    padding: 4.5em 0 4.5em 0;
 }
 #events h1 {
-    padding: 6em 0 6em 0;
+    padding: 4.5em 0 4.5em 0;
 }
 #videos h1 {
-    padding: 6em 0 6em 0;
+    padding: 4.5em 0 4.5em 0;
 }
 
 .clickable {
