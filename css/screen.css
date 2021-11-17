@@ -1,11 +1,4 @@
-/* Base Mobile Devices */
-
-html {
-  /* 1.2 ratio modular scale: https://www.modularscale.com/?22&px&1.2 */
-  font-size: 1em; /* 22px */
-  line-height: 1.2em; /* 26.4px / ~ 120% */
-  text-rendering: optimizeLegibility;
-}
+/*1.2 ratio modular scale: https://www.modularscale.com/?22&px&1.2*/
 
 /* Navigation */
 
@@ -50,105 +43,7 @@ html {
   width: 10em;
 }
 
-/* Homepage */
-
-.splide {
-  margin: auto;
-  margin-top: 0.5em;
-  margin-bottom: 1em;
-}
-
-.info h1{
-  margin: 1em;
-  padding: 1em;
-  text-align: center;
-}
-
-.clickable {
-  margin: 1em;
-}
-
-#news h1 {
-  background-color: palegoldenrod;
-  text-align: center;
-  padding: 2em;
-  margin-bottom: 1em;
-  color: black;
-  font-size: 1.44em;
-}
-
-#news h1:hover {
-  background-color: grey;
-}
-
-#events h1 {
-  background-color:salmon;
-  text-align: center;
-  padding: 2em;
-  margin-bottom: 1em;
-  color: black;
-  font-size: 1.44em;
-}
-
-#events h1:hover {
-  background-color: grey;
-}
-
-#videos h1 {
-  background-color:springgreen;
-  text-align: center;
-  padding: 2em;
-  margin-bottom: 1em;
-  color: black;
-  font-size: 1.44em;
-}
-
-#videos h1:hover {
-  background-color: grey;
-}
-
-.signup {
-  clear:both;
-  background-color: teal;
-  padding:1em;
-  margin: 1em;
-}
-
-#signup-text {
-  text-align: center;
-  display: block;
-  width: 100%;
-  float: left;
-}
-
-#signup-text h1 {
-  padding: 0.6em 0 0.6em 0;
-  color:white;
-  font-size: 1.44em;
-}
-
-button {
-  width: 100%;
-  height: 3em;
-}
-
-footer {
-  background-color: teal;
-  margin-top: 2em;
-  padding: 1.5em;
-  text-align: center;
-}
-
-footer a {
-  color:white;
-  text-decoration: none;
-  padding: 1em;
-}
-
-footer a:hover {
-  background-color: grey;
-
-/* About Page */
+/*About Page*/
 
 .history h3 {
   font-weight: bold;
@@ -224,7 +119,7 @@ footer a:hover {
   padding-bottom: 1em;
 }
 
-/* Contact Page */
+/*Contact Page*/
 
 #contact_form_li {
   list-style: none;
@@ -291,63 +186,11 @@ form {
     padding: 1.5em;
   }
 
-  /* Homepage */
-
-  .clickable {
-    margin: auto;
-    width: 95%;
-    margin-top: 1em;
-  }
-
-  #news {
-    display: block;
-    float: left;
-    width: 30%;
-    margin: 0 5% 0 0;
-  }
-
-  #news h1 {
-    padding: 3em 0 3em 0;
-  }
-
-  #events {
-    display: block;
-    float: left;
-    width: 30%;
-    margin: 0 5% 0 0;
-  }
-
-  #events h1 {
-    padding: 3em 0 3em 0;
-  }
-
-  #videos {
-    display: block;
-    float: left;
-    width: 30%;
-  }
-
-  #videos h1 {
-    padding: 3em 0 3em 0;
-  }
-
-  .signup {
-    margin: 2.5%;
-  }
-
-  #signup-text {
-    width: 62%;
-  }
-
-  button {
-    width: 10em;
-  }
 }
 
 /* Desktop View */
 
 @media only screen and (min-width : 992px) {
-
   /* Navigation */
 
   .navigation-main {
@@ -381,42 +224,8 @@ form {
     display: block;
     width: 40%;
     float: left;
-    padding: 2.7em 0 2.7em 0;
-    font-size: 1.44em
-  }
-
-
-  /* Homepage */
-
-  .info h1{
-    display: block;
-    margin: auto;
-    width: 77%;
-  }
-
-  .clickable {
-    width: 80%;
-  }
-
-  #news h1 {
+    padding-top: 4.5em;
     padding: 4.5em 0 4.5em 0;
-  }
-
-  #events h1 {
-    padding: 4.5em 0 4.5em 0;
-  }
-
-  #videos h1 {
-    padding: 4.5em 0 4.5em 0;
-  }
-
-  .signup {
-    margin: auto;
-    width: 77%;
-  }
-
-  footer {
-    text-align: right;
   }
   
   /*Contact Page*/
@@ -454,4 +263,5 @@ form {
     margin: 1em;
     padding: 0;
   }
+  
 }
