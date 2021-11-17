@@ -52,12 +52,13 @@
 
 .info h1{
     margin: 1em;
-    background-color: orange;
     padding: 1em;
+    text-align: center;
 }
 
 .clickable {
     margin: 1em;
+
 }
 .signup {
     margin: 1em;
@@ -70,20 +71,31 @@
     margin-bottom: 1em;
 }
 
+#news h1:hover {
+    background-color: grey;
+}
+
 #events h1 {
     background-color:salmon;
     text-align: center;
     padding: 2em;
     margin-bottom: 1em;
-
 }
+
+#events h1:hover {
+    background-color: grey;
+}
+
 
 #videos h1 {
     background-color:springgreen;
     text-align: center;
     padding: 2em;
     margin-bottom: 1em;
+}
 
+#videos h1:hover {
+    background-color: grey;
 }
 
 .signup {
@@ -102,6 +114,7 @@
 
 #signup-text h1 {
     padding: 1em 0 1em 0;
+    color:white;
 }
 
 button {
@@ -109,6 +122,26 @@ button {
     height: 3em;
 }
 
+footer {
+    background-color: teal;
+    margin-top: 2em;
+    padding: 1.5em;
+    text-align: center;
+}
+
+footer a {
+    color:white;
+    text-decoration: none;
+    padding: 1em;
+}
+
+footer a:hover {
+    background-color: grey;
+}
+
+a {
+    text-decoration: none;
+}
 
 /* Tablet View */
 
@@ -161,7 +194,6 @@ button {
   .info h1{
     display: block;
     margin: auto;
-    background-color: orange;
     width: 77%;
 }
 
@@ -197,5 +229,14 @@ button {
     display: block;
     float: left;
     width: 30%;
+}
+
+.signup {
+    margin: auto;
+    width: 77%;
+}
+
+footer {
+    text-align: right;
 }
 }
