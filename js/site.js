@@ -1,5 +1,5 @@
 // Splide Image Slider
-window.addEventListener( 'load', function() {
+window.addEventListener('load', function() {
     var splide = new Splide( '.splide', {
         height: '20em' ,
         width: '80%',
