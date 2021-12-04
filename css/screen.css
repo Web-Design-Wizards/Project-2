@@ -27,6 +27,8 @@ html {
   text-align: center;
   padding: 1em 0;
   text-decoration: none;
+  transition: 0.4s;
+
 }
   
 .navigation-main a:hover {
@@ -75,6 +77,7 @@ html {
   margin-bottom: 1em;
   color: black;
   font-size: 1.44em;
+  transition: 0.4s;
 }
 
 #news h2:hover {
@@ -88,6 +91,7 @@ html {
   margin-bottom: 1em;
   color: black;
   font-size: 1.44em;
+  transition: 0.4s;
 }
 
 #events h2:hover {
@@ -101,6 +105,7 @@ html {
   margin-bottom: 1em;
   color: black;
   font-size: 1.44em;
+  transition: 0.4s;
 }
 
 #videos h2:hover {
@@ -133,6 +138,11 @@ button {
   background-color: #5E84D4;
   border: none;
   cursor: pointer;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-color: gray;
 }
 
 footer {
@@ -151,6 +161,8 @@ footer a {
 footer a:hover {
   background-color: grey;
 }
+
+
 
 /* About Page */
 

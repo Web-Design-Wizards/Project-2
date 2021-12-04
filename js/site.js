@@ -5,10 +5,21 @@ window.addEventListener('load', function() {
         width: '80%',
         trimSpace: true,
         cover: true,
-        heightRatio: 0.5
+        heightRatio: 0.5,
+        type: 'fade',
+        autoplay: true,
+        rewind: true,
+        
+
     });
     splide.mount();
   } );
+
+  var signBtn = document.getElementById("signupBtn");
+
+  signBtn.addEventListener('click', function() {
+    location.href = "http://example.com/"
+  })
 
   var acc = document.getElementsByClassName("accordion");
   var i;
