@@ -9,16 +9,10 @@ window.addEventListener('load', function() {
     type: 'fade',
     autoplay: true,
     rewind: true,
+    rewind: true
   });
   splide.mount();
 });
-
-// Signup Button
-var signBtn = document.getElementById("signupBtn");
-
-signBtn.addEventListener('click', function() {
-  location.href = "contactpg.html"
-})
 
 // Accordion
 var acc = document.getElementsByClassName("accordion");
@@ -35,3 +29,10 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+// Signup Button
+var signBtn = document.getElementById("signupBtn");
+
+signBtn.addEventListener('click', function() {
+  location.href = "contactpg.html"
+})
