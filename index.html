@@ -3,21 +3,26 @@
 <head>
   <title>Home - ISUD</title>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link rel="stylesheet" media="screen" href="css/normalize.css">
   <link rel="stylesheet" media="screen" href="css/screen.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.5.0/dist/css/splide.min.css">
-  <script async src="js/site.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.5.0/dist/js/splide.min.js"></script>
+  <script async src="js/site.js"></script>
 </head>
 <body>
   <!--Header including branding & navbar-->
   <header id="header">
     <div class="branding-container">
-      <div class="brand-img">
-        <img id="logo" src="images/isud_logo.webp" alt="ISUD Logo">
-      </div>
+      <a href="index.html">
+        <div class="brand-img">
+          <img id="logo" src="images/ISUD-Logo.webp" alt="ISUD Logo">
+        </div>
+      </a>
       <div class="brand-text">
-        <h1>The International Society for Universal Dialogue</h1>
+        <a href="index.html">
+          <h1>The International Society for Universal Dialogue</h1>
+        </a>
       </div>
     </div>
     <nav class="navigation-main">
@@ -34,16 +39,16 @@
       <div class="splide">
         <div class="splide__track">
           <ul class="splide__list">
-            <li class="splide__slide"><img alt="conference picture" src="https://static.wixstatic.com/media/80ed71_4791eda4c97745af8ccbb84fff578675~mv2_d_5171_3448_s_4_2.jpg/v1/fill/w_1112,h_741,al_c,q_85,usm_0.66_1.00_0.01/80ed71_4791eda4c97745af8ccbb84fff578675~mv2_d_5171_3448_s_4_2.webp"></li>
-            <li class="splide__slide"><img alt="conference picture" src="https://static.wixstatic.com/media/80ed71_c405f8fb6fb6488b8373ad26af848d9b~mv2_d_4538_3025_s_4_2.jpg/v1/fill/w_1160,h_773,al_c,q_85,usm_0.66_1.00_0.01/80ed71_c405f8fb6fb6488b8373ad26af848d9b~mv2_d_4538_3025_s_4_2.webp"></li>
-            <li class="splide__slide"><img alt="conference picture" src="https://static.wixstatic.com/media/80ed71_c854b88ce0e94a5687a2734cfecf2f77~mv2.jpg/v1/fill/w_1161,h_773,al_c,q_85,usm_0.66_1.00_0.01/80ed71_c854b88ce0e94a5687a2734cfecf2f77~mv2.webp"></li>
+            <li class="splide__slide"><img alt="conference picture" src="images/Congress1.jpg"></li>
+            <li class="splide__slide"><img alt="conference picture" src="images/Congress4.jpg"></li>
+            <li class="splide__slide"><img alt="conference picture" src="images/Congress3.jpg"></li>
+            <li class="splide__slide"><img alt="conference picture" src="images/Congress6.jpg"></li>
           </ul>
         </div>
       </div>
     </div>
     <section class="info">
-      <h2>ISUD is a society of scholars, mostly philosophers, from many parts of the world, devoted to promoting international dialogue and the discussion of fundamental questions of universal concern, which affect all humanity, such as world peace, human rights, dialogical interrelations of diverse cultures, and preservation of the world ecology.
-      </h2>
+      <h2>ISUD is a society of scholars, mostly philosophers, from many parts of the world, devoted to promoting international dialogue and the discussion of fundamental questions of universal concern, which affect all humanity, such as world peace, human rights, dialogical interrelations of diverse cultures, and preservation of the world ecology.</h2>
     </section>
     <section class="clickable">
       <a href="http://example.com/">
@@ -67,12 +72,19 @@
         <h2>Become a ISUD Member Today!</h2>
       </div>
       <div id="signup-button">
-        <button onclick="" type="button">Join us</button>
+        <button id="signupBtn" type="button">Join us</button>
       </div>
     </section>
+    <!--Bottom Footer-->
     <footer>
-      <a href="http://example.com/">Facebook</a>
-      <a href="http://example.com/">LinkedIn</a>
+      <div class="footer-container">
+        <a href="https://www.facebook.com" target="_blank">
+          <img src="images/facebook.svg">
+        </a>
+        <a href="https://www.linkedin.com" target="_blank">
+          <img src="images/linkedin.svg">
+        </a>
+      </div>
     </footer>
   </main>
 </body>

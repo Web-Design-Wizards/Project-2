@@ -27,6 +27,7 @@ html {
   text-align: center;
   padding: 1em 0;
   text-decoration: none;
+  transition: 0.4s;
 }
   
 .navigation-main a:hover {
@@ -44,10 +45,16 @@ html {
   padding-bottom: 3em;
 }
 
+.brand-text a {
+  text-decoration: none;
+  color: #1475bc;
+  font-weight: bold;
+}
+
 #logo {
   display: block;
   margin: auto;
-  width: 10em;
+  width: 9.6em;
 }
 
 /* Homepage */
@@ -68,6 +75,11 @@ html {
   margin: 1em;
 }
 
+.clickable a {
+  text-decoration: none;
+}
+
+
 #news h2 {
   background-color: palegoldenrod;
   text-align: center;
@@ -75,6 +87,7 @@ html {
   margin-bottom: 1em;
   color: black;
   font-size: 1.44em;
+  transition: 0.4s;
 }
 
 #news h2:hover {
@@ -88,6 +101,7 @@ html {
   margin-bottom: 1em;
   color: black;
   font-size: 1.44em;
+  transition: 0.4s;
 }
 
 #events h2:hover {
@@ -101,6 +115,7 @@ html {
   margin-bottom: 1em;
   color: black;
   font-size: 1.44em;
+  transition: 0.4s;
 }
 
 #videos h2:hover {
@@ -127,29 +142,28 @@ html {
   font-size: 1.44em;
 }
 
-button {
+#signupBtn {
   width: 100%;
   height: 3em;
   background-color: #5E84D4;
   border: none;
   cursor: pointer;
+  transition: 0.4s;
+}
+
+#signupBtn:hover {
+  background-color: gray;
 }
 
 footer {
   background-color: #5E84D4;
-  margin-top: 2em;
-  padding: 1.5em;
+  margin-top: 4em;
+  padding: 0.7em;
   text-align: center;
 }
 
 footer a {
-  color:white;
   text-decoration: none;
-  padding: 1em;
-}
-
-footer a:hover {
-  background-color: grey;
 }
 
 /* About Page */
@@ -324,7 +338,7 @@ form {
     width: 62%;
   }
 
-  button {
+  #signupBtn {
     width: 10em;
   }
 }
@@ -350,7 +364,6 @@ form {
     padding: 1.5em;
   }
 
-
 /* Desktop View */
 
 @media only screen and (min-width : 992px) {
@@ -369,23 +382,26 @@ form {
   }
 
   /* Top Branding */
+
+  .branding-container {
+    display: block;
+    margin: 0 auto;
+    width: 41em;
+  }
   
   #logo {
     display: block;
     margin: auto;
-    width: 10em;
   }
 
   .brand-img {
-    padding-left: 13em;
     display: block;
-    width: 25%;
     float: left;
+    padding: 0 1em 0 0;
   }
 
   .brand-text {
     display: block;
-    width: 40%;
     float: left;
     padding: 2.7em 0 2.7em 0;
     font-size: 1.44em
@@ -423,7 +439,12 @@ form {
   footer {
     text-align: right;
   }
-  
+
+  .footer-container {
+    display: block;
+    margin: auto;
+    width: 80%;
+  }
   
   /*About Us Page*/
   
@@ -458,7 +479,7 @@ form {
   .panel h3 {
     text-align: center;
   }
-
+  
   /*Contact Page*/
   
   form {

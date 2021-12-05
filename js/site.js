@@ -1,18 +1,23 @@
 // Splide Image Slider
-document.addEventListener( 'DOMContentLoaded', function() {
-    var splide = new Splide( '.splide', {
-        height: '20em' ,
-        width: '80%',
-        trimSpace: true,
-        cover: true,
-        heightRatio: 0.5
-    });
-    splide.mount();
-  } );
+window.addEventListener('load', function() {
+  var splide = new Splide( '.splide', {
+    height: '20em' ,
+    width: '80%',
+    trimSpace: true,
+    cover: true,
+    heightRatio: 0.5,
+    type: 'fade',
+    autoplay: true,
+    rewind: true,
+    rewind: true
+  });
+  splide.mount();
+});
 
+// Accordion
 var acc = document.getElementsByClassName("accordion");
 var i;
-
+  
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
@@ -24,3 +29,10 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+// Signup Button
+var signBtn = document.getElementById("signupBtn");
+
+signBtn.addEventListener('click', function() {
+  location.href = "contactpg.html"
+})
