@@ -259,32 +259,47 @@ form {
 #form-heading {
   font-size: 2.488em; /*~54.74px*/
   line-height: 2.986em; /*~65.7*/
-  margin: 1em 0;
+  margin: .3em auto;
+  padding: .2em 0;
 }
 
-#form-p {
+form p {
   font-size: 2.074em; /*~45.62px*/
   line-height: 2.488em; /*~54.74px*/
-  padding: 0 0 1em 0;
 }
 
 #name, #email {
   font-size: 2.074em; /*~45.62px*/
   line-height: 2.488em; /*~54.74px*/
   width: 90%;
-  padding: 2em 0;
-  margin: 1.5em 0;
-  border-color: #000613;
+  padding: .5em .3em;
+  margin: 1.5em auto;
+  border-style: none;
+  background-color: palegoldenrod;
 }
+
+  #form-label {
+    visibility: hidden;
+  }
+
+  ::placeholder {
+    color: gray;
+  }
 
 #submit {
   font-size: 2.074em; /*~45.62px*/
   line-height: 2.488em; /*~54.74px*/
-  width: 70%;
-  background-color: #5E84D4;
+  width: 90%;
   color: #000613;
   border: none;
-  margin: 2em;
+  margin: 1em auto;
+  padding: .3em;
+  background-color: springgreen;
+  transition: 0.4s;
+}
+
+#submit:hover {
+  background-color: grey;
 }
 
 /* Tablet View */
@@ -351,17 +366,20 @@ form {
 
   #name, #email {
     width: 65%;
-    padding: 1em 0;
-    margin: 1em 0;
-    border-color: #000613;
+  }
+  
+  ::placeholder {
+    color: gray;
+  }
+  
+  #form-label {
+    visibility: hidden;
   }
 
   #submit {
     width: 45%;
-    background-color: #5E84D4;
-    color: #000613;
     border: none;
-    padding: 1.5em;
+    padding: 1em;
   }
 
 /* Desktop View */
@@ -491,10 +509,9 @@ form {
   #form-heading {
     font-size: 1.44em; /*~31.7px*/
     line-height: 1.728em; /*~38.02*/
-    margin: 2em 0;
   }
   
-  #form-p {
+  #form p {
     font-size: 1.2em; /*~26.4px*/
     line-height: 1.44em; /*~31.68px*/
     padding: 0 0 1em 0;
@@ -503,16 +520,19 @@ form {
   #name, #email {
     font-size: 1.2em; /*~26.4px*/
     line-height: 1.44em; /*~31.68px*/
-    padding: 1em 0;
-    margin: 1em 0;
-    border-color: #000613;
   }
 
   #submit {
-    background-color: #5E84D4;
     color: #000613;
     border: none;
     margin: 1em;
     padding: 0;
   }
+  
+  ::placeholder {
+    color: palegoldenrod;
+  }
+  
+  #form-label {
+    visibility: visible;
 }
