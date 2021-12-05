@@ -183,8 +183,8 @@ footer a {
 }
 
 .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: #5E84D4;
+  color: black;
   cursor: pointer;
   padding: 16px;
   width: 100%;
@@ -194,10 +194,6 @@ footer a {
   font-size: 16px;
   font-weight: bold;
   transition: 0.4s;
-}
-
-.active, .accordion:hover {
-  background-color: #ccc;
 }
 
 .accordion:after {
@@ -222,7 +218,7 @@ footer a {
 
 .panel {
   padding: 0 18px;
-  background-color: #ccc;
+  background-color: #5E84D4;
   text-align: center;
   max-height: 0;
   overflow: hidden;
@@ -496,7 +492,7 @@ form p {
     width: 50%;
     font-size: 1.2em;
     margin-left: 25%;
-    padding: 0;
+    padding: 0.5em, 2em;
     padding-right: 1em;
   }
 
