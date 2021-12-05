@@ -273,6 +273,7 @@ form p {
   line-height: 2.488em; /*~54.74px*/
   width: 90%;
   padding: .5em .3em;
+  float: left;
   margin: 1.5em auto;
   border-style: none;
   background-color: palegoldenrod;
@@ -365,6 +366,8 @@ form p {
   }
 
   #name, #email {
+    float: left;
+    margin: 1.5em auto;
     width: 65%;
   }
   
@@ -506,18 +509,17 @@ form p {
     margin: 0 auto;
   }
   
-  #form-heading {
+  #form h1 {
     font-size: 1.44em; /*~31.7px*/
     line-height: 1.728em; /*~38.02*/
   }
   
   #form p {
-    font-size: 1.2em; /*~26.4px*/
-    line-height: 1.44em; /*~31.68px*/
     padding: 0 0 1em 0;
   }
 
   #name, #email {
+    float: none;
     font-size: 1.2em; /*~26.4px*/
     line-height: 1.44em; /*~31.68px*/
   }
