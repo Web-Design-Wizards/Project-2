@@ -17,7 +17,7 @@ window.addEventListener('load', function() {
 var signBtn = document.getElementById("signupBtn");
 
 signBtn.addEventListener('click', function() {
-  location.href = "http://example.com/"
+  location.href = "contactpg.html"
 })
 
 // Accordion
