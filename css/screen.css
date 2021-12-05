@@ -158,18 +158,12 @@ html {
 footer {
   background-color: #5E84D4;
   margin-top: 2em;
-  padding: 1.5em;
+  padding: 0.7em;
   text-align: center;
 }
 
 footer a {
-  color:white;
   text-decoration: none;
-  padding: 1em;
-}
-
-footer a:hover {
-  background-color: grey;
 }
 
 /* About Page */
@@ -370,7 +364,6 @@ form {
     padding: 1.5em;
   }
 
-
 /* Desktop View */
 
 @media only screen and (min-width : 992px) {
@@ -446,6 +439,12 @@ form {
   footer {
     text-align: right;
   }
+
+  .footer-container {
+    display: block;
+    margin: auto;
+    width: 80%;
+  }
   
   /*About Us Page*/
   
@@ -484,7 +483,6 @@ form {
   .panel p  {
     padding: auto;
   }
-
 
   /*Contact Page*/
   
