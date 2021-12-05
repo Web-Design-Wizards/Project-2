@@ -26,6 +26,7 @@ html {
   display: block;
   text-align: center;
   padding: 1em 0;
+  color: palegoldenrod;
   text-decoration: none;
   transition: 0.4s;
 }
