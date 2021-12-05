@@ -28,7 +28,6 @@ html {
   padding: 1em 0;
   text-decoration: none;
   transition: 0.4s;
-
 }
   
 .navigation-main a:hover {
@@ -46,10 +45,16 @@ html {
   padding-bottom: 3em;
 }
 
+.brand-text a {
+  text-decoration: none;
+  color: #1475bc;
+  font-weight: bold;
+}
+
 #logo {
   display: block;
   margin: auto;
-  width: 10em;
+  width: 9.6em;
 }
 
 /* Homepage */
@@ -69,6 +74,11 @@ html {
 .clickable {
   margin: 1em;
 }
+
+.clickable a {
+  text-decoration: none;
+}
+
 
 #news h2 {
   background-color: palegoldenrod;
@@ -161,8 +171,6 @@ footer a {
 footer a:hover {
   background-color: grey;
 }
-
-
 
 /* About Page */
 
@@ -381,23 +389,26 @@ form {
   }
 
   /* Top Branding */
+
+  .branding-container {
+    display: block;
+    margin: 0 auto;
+    width: 41em;
+  }
   
   #logo {
     display: block;
     margin: auto;
-    width: 10em;
   }
 
   .brand-img {
-    padding-left: 13em;
     display: block;
-    width: 25%;
     float: left;
+    padding: 0 1em 0 0;
   }
 
   .brand-text {
     display: block;
-    width: 40%;
     float: left;
     padding: 2.7em 0 2.7em 0;
     font-size: 1.44em
@@ -435,7 +446,6 @@ form {
   footer {
     text-align: right;
   }
-  
   
   /*About Us Page*/
   
