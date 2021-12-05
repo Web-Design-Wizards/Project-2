@@ -289,7 +289,7 @@ form p {
   margin:.25em auto .5em auto;
 }
 
-#form-label {
+.form-label {
   visibility: hidden;
 }
 
@@ -386,7 +386,7 @@ form p {
     color: gray;
   }
   
-  #form-label {
+  .form-label {
     visibility: hidden;
   }
 
@@ -527,7 +527,7 @@ form p {
     padding: 0 0 1em 0;
   }
   
-  #form-label {
+  .form-label {
     float: left;
   }
 
@@ -550,6 +550,6 @@ form p {
     color: palegoldenrod;
   }
   
-  #form-label {
+  .form-label {
     visibility: visible;
 }
