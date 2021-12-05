@@ -26,6 +26,7 @@ html {
   display: block;
   text-align: center;
   padding: 1em 0;
+  color: palegoldenrod;
   text-decoration: none;
   transition: 0.4s;
 }
@@ -252,39 +253,56 @@ footer a {
 
 form {
   text-align: center;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
 #form-heading {
   font-size: 2.488em; /*~54.74px*/
-  line-height: 2.986em; /*~65.7*/
-  margin: 1em 0;
+  line-height: 2.986em; /*~65.7px*/
+  margin: .3em auto;
+  padding: .2em;
 }
 
-#form-p {
+form p {
   font-size: 2.074em; /*~45.62px*/
   line-height: 2.488em; /*~54.74px*/
-  padding: 0 0 1em 0;
+  padding: .2em;
 }
 
 #name, #email {
   font-size: 2.074em; /*~45.62px*/
   line-height: 2.488em; /*~54.74px*/
+  padding: .2em;
+  display: block;
   width: 90%;
-  padding: 2em 0;
-  margin: 1.5em 0;
-  border-color: #000613;
+  margin: 1.5em auto;
+  border-style: none;
+  background-color: palegoldenrod;
+}
+
+#form-label {
+  visibility: hidden;
+}
+
+::placeholder {
+  color: gray;
 }
 
 #submit {
-  font-size: 2.074em; /*~45.62px*/
-  line-height: 2.488em; /*~54.74px*/
+  font-size: 1.728em; /*~38.016px*/
+  line-height: 2.074em; /*~45.619px*/
   width: 70%;
-  background-color: #5E84D4;
   color: #000613;
   border: none;
-  margin: 2em;
+  margin: .2em;
+  padding: 0;
+  background-color: springgreen;
+  transition: 0.4s;
+}
+
+#submit:hover {
+  background-color: grey;
 }
 
 /* Tablet View */
@@ -347,21 +365,25 @@ form {
   
   form {
     text-align: center;
+    width: 90%;
   }
 
   #name, #email {
-    width: 65%;
-    padding: 1em 0;
-    margin: 1em 0;
-    border-color: #000613;
+    margin: 1.5em auto;
+    width: 75%;
+  }
+  
+  ::placeholder {
+    color: gray;
+  }
+  
+  #form-label {
+    visibility: hidden;
   }
 
   #submit {
     width: 45%;
-    background-color: #5E84D4;
-    color: #000613;
     border: none;
-    padding: 1.5em;
   }
 
 /* Desktop View */
@@ -483,36 +505,41 @@ form {
   /*Contact Page*/
   
   form {
-    text-align: center;
     width: 60%;
     margin: 0 auto;
   }
   
-  #form-heading {
+  #form h1 {
     font-size: 1.44em; /*~31.7px*/
     line-height: 1.728em; /*~38.02*/
-    margin: 2em 0;
   }
   
-  #form-p {
-    font-size: 1.2em; /*~26.4px*/
-    line-height: 1.44em; /*~31.68px*/
+  #form p {
     padding: 0 0 1em 0;
+  }
+  
+  #form-label {
+    float: left;
   }
 
   #name, #email {
     font-size: 1.2em; /*~26.4px*/
     line-height: 1.44em; /*~31.68px*/
-    padding: 1em 0;
-    margin: 1em 0;
-    border-color: #000613;
+    width: 70%;
   }
 
   #submit {
-    background-color: #5E84D4;
+    clear: left;
     color: #000613;
     border: none;
     margin: 1em;
     padding: 0;
   }
+  
+  ::placeholder {
+    color: palegoldenrod;
+  }
+  
+  #form-label {
+    visibility: visible;
 }
