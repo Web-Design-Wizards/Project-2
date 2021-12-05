@@ -26,7 +26,7 @@ html {
   display: block;
   text-align: center;
   padding: 1em 0;
-  color: palegoldenrod;
+  color: white;
   text-decoration: none;
   transition: 0.4s;
 }
@@ -277,9 +277,16 @@ form p {
   padding: .2em;
   display: block;
   width: 90%;
-  margin: 1.5em auto;
   border-color: #000613;
   background-color: palegoldenrod;
+}
+
+#name {
+  margin:.5em auto .25em auto;
+}
+
+#email {
+  margin:.25em auto .5em auto;
 }
 
 #form-label {
@@ -288,6 +295,8 @@ form p {
 
 ::placeholder {
   color: gray;
+  font-size: 1em; /*~22px*/
+  line-height: 1.2em; /*~26.4em*/
 }
 
 #submit {
@@ -370,7 +379,6 @@ form p {
   }
 
   #name, #email {
-    margin: 1.5em auto;
     width: 75%;
   }
   
@@ -526,6 +534,7 @@ form p {
   #name, #email {
     font-size: 1.2em; /*~26.4px*/
     line-height: 1.44em; /*~31.68px*/
+    margin: 1.5em auto;
     width: 70%;
   }
 
