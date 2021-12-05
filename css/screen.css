@@ -258,15 +258,16 @@ form {
 }
 
 #form-heading {
-  font-size: 2.488em; /*~54.74px*/
-  line-height: 2.986em; /*~65.7px*/
+  font-size: 1.728em; /*~2.376px*/
+  line-height: 2.074em; /*~45.62px*/
+  font-weight: 700;
   margin: .3em auto;
   padding: .2em;
 }
 
 form p {
-  font-size: 2.074em; /*~45.62px*/
-  line-height: 2.488em; /*~54.74px*/
+  font-size: 1em; /*22px*/
+  line-height: 1.2em; /*26.4*/
   padding: .2em;
 }
 
@@ -277,7 +278,7 @@ form p {
   display: block;
   width: 90%;
   margin: 1.5em auto;
-  border-style: none;
+  border-color: #000613;
   background-color: palegoldenrod;
 }
 
